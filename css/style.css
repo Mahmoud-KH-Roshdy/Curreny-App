@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* .container {
+    @apply pl-4 ml-4 mx-auto md:w-[750px]  lg:w-[1170px];
+  } */
+}
+@layer utilities {
+  /* width */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsla(0, 0%, 100%, 0.08);
+    border-radius: 500px;
+  }
+}
